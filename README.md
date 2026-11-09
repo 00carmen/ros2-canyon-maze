@@ -109,8 +109,6 @@ python3 scripts/check_project.py
 
 ## 来源与许可证
 
-项目由个人完成设计、集成调试和实验验证。在提供思路与程序框架后，使用 AI 辅助编写部分基础代码及整理文档。
-
 项目原创代码与文档采用 [MIT 许可证](LICENSE)，版权署名为 `00carmen`。三个原有测试模板保留 Apache-2.0 许可，外部模型与依赖遵循各自许可证，详见 [第三方说明](THIRD_PARTY_NOTICES.md)。
 
 功能包元信息和 Git 提交使用维护者的 GitHub noreply 邮箱。该地址不用于接收咨询；问题反馈和交流请使用 [仓库 Issues](https://github.com/00carmen/ros2-canyon-maze/issues)。
