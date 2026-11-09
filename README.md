@@ -4,7 +4,7 @@
 
 主版本 **V3** 使用激光雷达进行左墙跟随，通过自适应速度和连续新扫描确认识别开口，最后结合里程计与预设出口坐标到达终点。RViz2 显示机器人、激光和行驶轨迹，监测节点输出耗时、里程及状态统计。
 
-当前版本为 **0.1.0**，维护者为 [00carmen](https://github.com/00carmen)。项目原创代码采用 MIT 许可证，现阶段尚未发布到 GitHub。
+当前版本为 **0.1.0**，维护者为 [00carmen](https://github.com/00carmen)，源码仓库为 [ros2-canyon-maze](https://github.com/00carmen/ros2-canyon-maze)。项目原创代码采用 MIT 许可证。
 
 ## 功能与范围
 
@@ -25,9 +25,12 @@
 
 ## 构建
 
-本仓库本身就是 colcon 工作空间。在仓库根目录打开 Ubuntu 终端，执行：
+本仓库本身就是 colcon 工作空间。在 Ubuntu 终端下载源码并构建：
 
 ```bash
+git clone https://github.com/00carmen/ros2-canyon-maze.git
+cd ros2-canyon-maze
+
 source /opt/ros/humble/setup.bash
 
 # 仅在机器尚未初始化 rosdep 时执行：sudo rosdep init
@@ -110,4 +113,4 @@ python3 scripts/check_project.py
 
 项目原创代码与文档采用 [MIT 许可证](LICENSE)，版权署名为 `00carmen`。三个原有测试模板保留 Apache-2.0 许可，外部模型与依赖遵循各自许可证，详见 [第三方说明](THIRD_PARTY_NOTICES.md)。
 
-功能包元信息和 Git 提交使用维护者的 GitHub noreply 邮箱。该地址不用于接收咨询；项目发布后可通过仓库 Issues 交流。
+功能包元信息和 Git 提交使用维护者的 GitHub noreply 邮箱。该地址不用于接收咨询；问题反馈和交流请使用 [仓库 Issues](https://github.com/00carmen/ros2-canyon-maze/issues)。
