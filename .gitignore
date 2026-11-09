@@ -1,0 +1,47 @@
+# colcon and ROS runtime output
+build/
+install/
+log/
+logs/
+.ros/
+artifacts/
+verification-results/
+*.bag
+*.db3
+*.mcap
+
+# Python tooling
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.bak
+
+# Private configuration and local exports
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.zip
+*.7z
+*.docx
+*.pdf
+*.mp4
+*.mov
+README_backup.md
